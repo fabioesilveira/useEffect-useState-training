@@ -6,7 +6,7 @@ body {
   justify-content: center;
 }
 
-.my-container{
+.my-container {
   height: 800px;
   width: 450px;
   padding: 0;
@@ -14,7 +14,70 @@ body {
   border-radius: 10px;
 }
 
-.img-home{
+.h1-home {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.div-img {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-home {
   height: 300px;
   width: 300px;
+}
+
+.div-btns-amount {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btns-amount {
+  height: 50px;
+  width: 50px;
+  font-size: larger;
+  background-color: darkgray
+}
+
+.h3-amount {
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.h2-price {
+  text-align: center;
+  font-family: "Coral Pixels", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.price {
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.btn-checkout {
+  height: 50px;
+  width: 150px;
+  font-size: larger;
+  background-color: darkgray;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.div-checkout {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
