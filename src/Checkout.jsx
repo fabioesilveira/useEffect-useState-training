@@ -34,7 +34,7 @@ export default function Checkout() {
         // Simulate processing delay
         setTimeout(() => {
             navigate("/confirmation"); // Replace with your final route
-        }, 3000); // 3 seconds
+        }, 2000); // 3 seconds
     };
 
     return (
@@ -65,7 +65,7 @@ export default function Checkout() {
                             <label>Email:</label>
                             <input onChange={handleChange} type="email" name="email" placeholder="Enter your email" required />
                             <label>Street:</label>
-                            <input onChange={handleChange} type="text" name="street" placeholder="Enter your street address" required />
+                            <input onChange={handleChange} type="text" name="street" placeholder="Enter your address" required />
                             <label>City/State:</label>
                             <input onChange={handleChange} type="text" name="cityState" placeholder="Enter your city + State" required />
                         </form>
@@ -73,7 +73,7 @@ export default function Checkout() {
                         <h2 className="h2-payment-delivery">Payment</h2>
                         <form className="form-payment">
                             <label>Name on Card:</label>
-                            <input type="text" placeholder="Enter the name on the card" required />
+                            <input type="text" placeholder="Enter your name" required />
                             <label>Card Number:</label>
                             <input type="text" placeholder="1234 5678 9012 3456" required />
                             <label>Valid Through:</label>
