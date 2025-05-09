@@ -122,12 +122,17 @@ body {
   margin-top: 20px;
 }
 
-  
-
 .btn-process-payment {
   height: 40px;
   width: 200px;
   font-size: larger;
   background-color: darkgray;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.div-spinner{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
