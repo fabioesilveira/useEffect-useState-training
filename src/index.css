@@ -23,6 +23,11 @@ body {
 
 }
 
+.h2-productName{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 .div-img {
   height: 280px;
   display: flex;
@@ -80,4 +85,49 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.h1-chekout{
+  text-align: center;
+  font-family: "Coral Pixels", serif;
+  margin-top: 50px;
+}
+
+.div-checkout-products{
+ margin-left: 15px;
+}
+
+.h2-payment-delivery{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.form-inputs-delivery{
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.form-payment{
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.div-process-payment{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+  
+
+.btn-process-payment {
+  height: 40px;
+  width: 200px;
+  font-size: larger;
+  background-color: darkgray;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
