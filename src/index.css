@@ -136,3 +136,21 @@ body {
   align-items: center;
   margin-top: 50px;
 }
+
+.h1-confirmation{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.h2-confirmation{
+  text-align: center;
+}
+
+.p-confirmation{
+  text-align: center;
+}
+
+.div-delivery-info{
+  text-align: center;
+  margin-left: 3px;
+}
