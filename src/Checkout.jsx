@@ -61,17 +61,19 @@ export default function Checkout() {
 
     setTimeout(() => {
       navigate("/confirmation");
-    }, 2000);
+    }, 3000);
   };
 
   return (
     <div className="my-container">
       {processing ? (
         <div className="div-spinner">
-          <p className="mt-3">Processing your payment...</p>
+          <p className="mt-3">Processing your payment, Please don't refresh the page...</p>
+          <div className="div-spinner">
           <Spinner animation="border" role="status">
             <span className="visually-hidden">Loading...</span>
           </Spinner>
+          </div>
         </div>
       ) : (
         <>
