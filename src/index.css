@@ -7,7 +7,7 @@ body {
 }
 
 .my-container {
-  min-height: 400px; /* allow minimum space */
+  min-height: 800px; /* allow minimum space */
   max-width: 100%;
   width: 450px;
   padding: 0;
