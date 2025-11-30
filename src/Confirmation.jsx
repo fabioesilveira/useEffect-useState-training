@@ -1,13 +1,20 @@
 import { useContext } from "react";
 import Context from "./Context/Context";
+import { useNavigate } from "react-router-dom";
 
 export default function Confirmation() {
     const { checkoutInfo } = useContext(Context);
     const orderNumber = Math.floor(100000 + Math.random() * 900000);
 
+    const navigate = useNavigate();
+
+    const handleNavigate = () => {
+        navigate("/");
+    };
+
     return (
         <>
-            <div className="my-container">
+            <div className="my-container" style={{ padding: "20px" }}>
                 <div className="confirmation-container">
                     <h1 className="h1-confirmation">You’re all set with your new gear!👏 </h1>
                     <h2 className="h2-confirmation-delivery">Order Confirmation</h2>
@@ -19,6 +26,10 @@ export default function Confirmation() {
                             Your order will be delivered soon to:{checkoutInfo.street}, {checkoutInfo.cityState}</p>
 
                         <p>See you next time!</p>
+
+                        <button className="btn-checkout"
+                            onClick={handleNavigate}
+                        >Back to 🏠</button>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/checkout/:quantity/:price" element={<Checkout />} />
         <Route path="/confirmation" element={<Confirmation />}/>
       </Routes>
