@@ -39,17 +39,6 @@ This project is ideal for practicing:
 
 ---
 
-## Tech Stack
-
-- **React**
-- **React Router DOM**
-- **Axios**
-- **React Bootstrap (Spinner)**
-- **JavaScript**
-- **CSS**
-
----
-
 ## Main Flow
 
 ### 1. Home Page (Product & Cart)
