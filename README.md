@@ -1,4 +1,4 @@
-# 🛒 React Shopping Cart Simulation
+# 🛒 Shopping Cart Simulator
 
 This project is a **React-based shopping cart simulation** that demonstrates how to manage state, perform API requests, handle forms with validation, and simulate a real checkout flow using modern React tools.
 
@@ -66,7 +66,7 @@ This project is ideal for practicing:
 
 ---
 
-## Screenshot
+## Demo & Screenshots
 
 ![Screenshot of Deployed Website](/src/assets/Screenshot1.png)
 
